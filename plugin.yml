@@ -1,0 +1,13 @@
+name: FormCast
+main: JoinPlugins\FormCast\Main
+api: 3.0.0
+version: 1.0.0
+author: JoinPlugins
+commands:
+  broadcast:
+    description: Показать сообщение всему серверу
+    permission: broadcast.use
+permissions:
+  broadcast.use:
+    description: Права на использование команды /broadcast
+    default: op
